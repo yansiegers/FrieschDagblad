@@ -1,1 +1,2 @@
 # FrieschDagblad
+Jorrit is cool
