@@ -3,31 +3,156 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Friesch Dagblad</title>
 
   <!-- Local testing -->
   <!-- <link rel="stylesheet" href="/public/build/tailwind.css">  -->
   <!-- Github Pages -->
   <link rel="stylesheet" href="public/build/tailwind.css">
+
+  <style>
+    body {
+      background-image:
+        radial-gradient(#e5e5e5 30%, transparent 20%),
+        radial-gradient(#e5e5e5 30%, transparent 20%);
+      width: 100%;
+
+      background-position: 0 0, 80vw 80vw;
+      background-size: 160vw 160vw;
+      height: 320vw;
+
+      /* background-position: 0 0, 100vw 100vw;
+      background-size: 200vw 200vw;
+      height: 400vw; */
+
+      /* transform: rotate(5deg); */
+      /* transform: rotate(-10deg) skew(-10deg); */
+    }
+
+  </style>
 </head>
 
-<body class="p-10">
-  <h1 class="text-4xl font-bold text-center text-blue-600">Hello world!</h1>
-  <p class="text-xl">
-    Hier kunnen we dus straks de website op laten draaien. Ook lokaal kan je 'm heel makkelijk draaien, alleen moet je
-    wel even eraan denken dat je het juiste .css bestand aan zet. Vraag anders Yan even om hulp.
-  </p>
-  <p class="text-xl">
-    Dus wat vinden jullie er van?
-  </p>
-  <div class="p-5">
-    <a class="bg-blue-600 p-2 text-white uppercase rounded-lg shadow-sm"
-      href="https://www.youtube.com/watch?v=QGJuMBdaqIw">Geweldig</a>
-    <a class="bg-blue-600 p-2 text-white rounded-lg shadow-sm"
-      href="https://www.youtube.com/watch?v=y6Sxv-sUYtM">Top</a>
-    <a class="bg-blue-600 p-2 text-white rounded-lg shadow-sm" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Drie
-      keer kut</a>
+<body class="bg-white">
+
+  <div class="container p-5 mb-48 mx-auto">
+
+    <section class="grid grid-rows-3 grid-cols-4 gap-5">
+
+      <article class="p-5 bg-white shadow-md row-span-2 col-span-2" style="height: 70vh;">Cambuur</article>
+      <article class="p-5 bg-white shadow-md">Kapper, musea en horeca</article>
+      <article class="p-5 bg-white shadow-md row-span-2">Tabs</article>
+      <article class="p-5 bg-white shadow-md">Locale media</article>
+      <article class="p-5 bg-white shadow-md col-span-3">Beveiliger</article>
+      <article class="p-5 bg-white shadow-md bg-blue-600 rounded-br-full">Stijlelement kwart</article>
+
+    </section>
+
   </div>
+
+  <div class="container p-5 mb-48 mx-auto">
+
+    <div class="flex mb-5 justify-between">
+      <div>Regio</div>
+      <div>Meer regio</div>
+    </div>
+
+    <section class="grid grid-rows-2 grid-cols-4 gap-5">
+
+      <article class="p-5 bg-white shadow-md col-span-2" style="height: 35vh;">Campings</article>
+      <article class="p-5 bg-white shadow-md col-span-2">Boerenwerk</article>
+      <article class="p-5 bg-white shadow-md col-span-3">PFAS</article>
+      <article class="p-5 bg-white shadow-md bg-blue-600 rounded-br-full">Stijlelement kwart</article>
+
+    </section>
+
+  </div>
+
+  <div class="container p-5 mb-48 mx-auto">
+
+    <div class="flex mb-5 justify-between">
+      <div>Geloven</div>
+      <div>Meer geloven</div>
+    </div>
+
+    <section class="grid grid-rows-2 grid-cols-4 gap-5">
+
+      <article class="p-5 bg-white shadow-md col-span-2" style="height: 35vh;">Vertaling</article>
+      <article class="p-5 bg-white shadow-md col-span-2">Jongeren</article>
+      <article class="p-5 bg-white shadow-md bg-blue-600 rounded-full">Stijlelement cirkel</article>
+      <article class="p-5 bg-white shadow-md col-span-3">Verbondenheid</article>
+
+    </section>
+
+  </div>
+
+  <div class="container p-5 mb-48 mx-auto">
+
+    <div class="flex mb-5 justify-between">
+      <div>Abonnementen</div>
+      <div>Meer abonnementen</div>
+    </div>
+
+    <section class="grid grid-rows-1 grid-cols-4 gap-5">
+
+      <article class="p-5 bg-white shadow-md col-span-2" style="height: 35vh;">Friesch Dagblad</article>
+      <article class="p-5 bg-white shadow-md">Registreren</article>
+      <article class="p-5 bg-white shadow-md">Knoppen</article>
+
+    </section>
+
+  </div>
+
+  <div class="container p-5 mb-48 mx-auto">
+
+    <div class="flex mb-5 justify-between">
+      <div>Samenleving</div>
+      <div>Meer samenleving</div>
+    </div>
+
+    <section class="grid grid-rows-2 grid-cols-4 gap-5">
+
+      <article class="p-5 bg-white shadow-md col-span-3" style="height: 35vh;">Nieuw normaal</article>
+      <article class="p-5 bg-white shadow-md bg-blue-600 rounded-tr-full">Stijlelement kwart opsekop</article>
+      <article class="p-5 bg-white shadow-md col-span-2">Eetbaar</article>
+      <article class="p-5 bg-white shadow-md col-span-2">WHO</article>
+
+    </section>
+
+  </div>
+
+  <div class="container p-5 mb-48 mx-auto">
+
+    <div class="flex mb-5 justify-between">
+      <div>Van onze adverteerders</div>
+    </div>
+
+    <section class="grid grid-rows-1 grid-cols-4 gap-5">
+
+      <article class="p-5 bg-white shadow-md col-span-2" style="height: 35vh;">Water</article>
+      <article class="p-5 bg-white shadow-md col-span-2" style="height: 35vh;">Wesp</article>
+
+    </section>
+
+  </div>
+
+  <div class="container p-5 mb-48 mx-auto">
+
+    <div class="flex mb-5 justify-between">
+      <div>Sport</div>
+      <div>Meer sport</div>
+    </div>
+
+    <section class="grid grid-rows-2 grid-cols-4 gap-5">
+
+      <article class="p-5 bg-white shadow-md col-span-2" style="height: 35vh;">IJscarrousel</article>
+      <article class="p-5 bg-white shadow-md col-span-2">Heerenveen</article>
+      <article class="p-5 bg-white shadow-md bg-blue-600 rounded-full">Stijlelement cirkel</article>
+      <article class="p-5 bg-white shadow-md col-span-3">Sporten</article>
+
+    </section>
+
+  </div>
+
 </body>
 
 </html>
