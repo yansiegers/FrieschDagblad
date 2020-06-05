@@ -1,6 +1,10 @@
+var styleElements = document.getElementsByClassName("element-quarter-br");
+var sampleStyleElement = styleElements[0];
 var articleImages = document.getElementsByClassName("article-image");
-var firstArticleImage = articleImages[0];
 
 for (var i = 0; i < articleImages.length; i++) {
-  articleImages[i].style.height = firstArticleImage.width;
+  console.log(articleImages[i].height);
+  console.log(sampleStyleElement.style.width);
+
+  articleImages[i].style.height = sampleStyleElement.offsetWidth;
 }
