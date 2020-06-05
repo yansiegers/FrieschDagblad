@@ -637,11 +637,18 @@ a:hover {
 }
 
 .article-image {
-  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.block-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
 }
 
 .element-circle {

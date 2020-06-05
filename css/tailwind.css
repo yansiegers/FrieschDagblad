@@ -30,7 +30,11 @@ a:hover {
 }
 
 .article-image {
-  @apply w-full object-cover object-center;
+  @apply object-cover object-center;
+}
+
+.block-image {
+  @apply object-cover object-center w-full;
 }
 
 .element-circle {
