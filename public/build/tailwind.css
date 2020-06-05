@@ -644,6 +644,46 @@ a:hover {
      object-position: center;
 }
 
+.element-circle {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-tl {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-top-left-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-tr {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-top-right-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-bl {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-bottom-left-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-br {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-bottom-right-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
 .container {
   width: 100%;
 }

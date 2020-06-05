@@ -33,6 +33,26 @@ a:hover {
   @apply w-full object-cover object-center;
 }
 
+.element-circle {
+  @apply bg-fdblue rounded-full shadow-md;
+}
+
+.element-quarter-tl {
+  @apply bg-fdblue rounded-tl-full shadow-md;
+}
+
+.element-quarter-tr {
+  @apply bg-fdblue rounded-tr-full shadow-md;
+}
+
+.element-quarter-bl {
+  @apply bg-fdblue rounded-bl-full shadow-md;
+}
+
+.element-quarter-br {
+  @apply bg-fdblue rounded-br-full shadow-md;
+}
+
 @tailwind components;
 
 @tailwind utilities;
