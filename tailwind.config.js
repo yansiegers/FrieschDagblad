@@ -2,8 +2,13 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ['"Source Serif Pro"', 'serif'],
+        sans: ['Roboto', 'sans-serif'],
+      },
       colors: {
         fdblue: '#00a4e8',
+        fdorange: '#ff6633',
         fdwhite: '#ffffff',
         fdgray: {
           default: '#ededed',
