@@ -25,6 +25,10 @@
   src: url(/node_modules/typeface-source-serif-pro/files/source-serif-pro-latin-400.woff) format("woff");
 }
 
+a:hover {
+  @apply text-fdblue underline;
+}
+
 @tailwind components;
 
 @tailwind utilities;

@@ -629,6 +629,13 @@ video {
   src: url(/node_modules/typeface-source-serif-pro/files/source-serif-pro-latin-400.woff) format("woff");
 }
 
+a:hover {
+  --text-opacity: 1;
+  color: #00a4e8;
+  color: rgba(0, 164, 232, var(--text-opacity));
+  text-decoration: underline;
+}
+
 .container {
   width: 100%;
 }
