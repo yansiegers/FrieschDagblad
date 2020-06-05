@@ -29,6 +29,10 @@ a:hover {
   @apply text-fdblue underline;
 }
 
+.article-image {
+  @apply w-full object-cover object-center;
+}
+
 @tailwind components;
 
 @tailwind utilities;
