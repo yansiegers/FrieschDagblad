@@ -629,11 +629,76 @@ video {
   src: url(/node_modules/typeface-source-serif-pro/files/source-serif-pro-latin-400.woff) format("woff");
 }
 
+body {
+  background-image:
+    radial-gradient(#ededed 30%, transparent 20%),
+    radial-gradient(#ededed 30%, transparent 20%);
+  background-position: 0 0, 80vw 80vw;
+  background-size: 160vw 160vw;
+  /* background-attachment: fixed; */
+  /* width: 100%; */
+}
+
 a:hover {
   --text-opacity: 1;
   color: #00a4e8;
   color: rgba(0, 164, 232, var(--text-opacity));
   text-decoration: underline;
+}
+
+.article-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.block-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 100%;
+}
+
+.element-circle {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-tl {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-top-left-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-tr {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-top-right-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-bl {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-bottom-left-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.element-quarter-br {
+  --bg-opacity: 1;
+  background-color: #00a4e8;
+  background-color: rgba(0, 164, 232, var(--bg-opacity));
+  border-bottom-right-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 .container {

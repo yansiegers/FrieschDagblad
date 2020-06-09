@@ -25,8 +25,46 @@
   src: url(/node_modules/typeface-source-serif-pro/files/source-serif-pro-latin-400.woff) format("woff");
 }
 
+body {
+  background-image:
+    radial-gradient(#ededed 30%, transparent 20%),
+    radial-gradient(#ededed 30%, transparent 20%);
+  background-position: 0 0, 80vw 80vw;
+  background-size: 160vw 160vw;
+  /* background-attachment: fixed; */
+  /* width: 100%; */
+}
+
 a:hover {
   @apply text-fdblue underline;
+}
+
+.article-image {
+  @apply object-cover object-center;
+}
+
+.block-image {
+  @apply object-cover object-center w-full;
+}
+
+.element-circle {
+  @apply bg-fdblue rounded-full shadow-md;
+}
+
+.element-quarter-tl {
+  @apply bg-fdblue rounded-tl-full shadow-md;
+}
+
+.element-quarter-tr {
+  @apply bg-fdblue rounded-tr-full shadow-md;
+}
+
+.element-quarter-bl {
+  @apply bg-fdblue rounded-bl-full shadow-md;
+}
+
+.element-quarter-br {
+  @apply bg-fdblue rounded-br-full shadow-md;
 }
 
 @tailwind components;
