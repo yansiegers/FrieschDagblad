@@ -5,13 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Friesch Dagblad</title>
 
-  <!-- Local testing -->
-  <!-- <link rel="stylesheet" href="/public/build/tailwind.css">  -->
-  <!-- Github Pages -->
-  <link rel="stylesheet" href="public/build/tailwind.css">
+  <script>
+    if (location.hostname == "yansiegers.github.io") {
+      // <base href="https://yansiegers.github.io/FrieschDagblad/public/" />
+      document.write("<base href='" + document.location.href + "public/' />");
+    } else {
+      // <base href="/public/" />
+      document.write("<base href='/public/' />");
+    }
+    // base = document.createElement('base');
+    // base.href = document.location.href;
+    // document.getElementsByTagName('head')[0].prepend(base);
+  </script>
 
-  <script src="article-height.js" defer></script>
-  <script src="image-height.js" defer></script>
+  <link rel="stylesheet" href="build/tailwind.css">
+
+  <script src="js/article-height.js" defer></script>
+  <script src="js/image-height.js" defer></script>
 </head>
 
 <body class="bg-fdwhite">
@@ -101,7 +111,7 @@
 
       <article class="bg-fdwhite shadow-md row-span-2 col-span-2 flex flex-col justify-end">
 
-        <img class="article-image image-height" src="/public/images/g751msade.1-0.jpg" alt="">
+        <img class="article-image image-height" src="images/g751msade.1-0.jpg" alt="">
         <div class="content-height p-5">
 
           <span class="text-fdblue font-bold uppercase">Regio</span>
@@ -118,7 +128,7 @@
 
       <article class="bg-fdwhite shadow-md flex flex-col justify-end">
 
-        <img class="article-image image-height" src="/public/images/g751msaob.1-0.jpg" alt="">
+        <img class="article-image image-height" src="images/g751msaob.1-0.jpg" alt="">
         <div class="content-height p-5">
 
           <span class="text-fdblue font-bold uppercase">Samenleving</span>
@@ -131,7 +141,7 @@
 
       <article class="bg-fdwhite shadow-md flex flex-col justify-end">
 
-        <img class="article-image image-height" src="/public/images/g7t1ms245.1-0.jpg" alt="">
+        <img class="article-image image-height" src="images/g7t1ms245.1-0.jpg" alt="">
         <div class="content-height p-5">
 
           <span class="text-fdblue font-bold uppercase">Regio</span>
@@ -152,7 +162,7 @@
           meer</a>
 
       </article>
-      <img class="block-image col-span-2" src="/public/images/g6k1mava7.1-0.jpg" alt="">
+      <img class="block-image col-span-2" src="images/g6k1mava7.1-0.jpg" alt="">
 
       <div class="p-5 element-quarter-br"></div>
 
@@ -176,7 +186,7 @@
     </div>
 
     <div class="grid grid-rows-2 grid-cols-4 gap-5">
-      <img src="/public/images/gd81msqd1.1-0.jpg" class="block-image" alt="">
+      <img src="images/gd81msqd1.1-0.jpg" class="block-image" alt="">
       <article class="p-5 bg-fdwhite shadow-md flex flex-col justify-between">
 
         <h1 class="text-2xl font-bold leading-tight">Campings op de Waddeneilanden voorzien nog steeds problemen
@@ -188,7 +198,7 @@
 
       </article>
 
-      <img src="/public/images/gjk1mp5ut.1-0.jpg" class="block-image" alt="">
+      <img src="images/gjk1mp5ut.1-0.jpg" class="block-image" alt="">
       <article class="p-5 bg-fdwhite shadow-md flex flex-col justify-between">
 
         <h1 class="text-2xl font-bold leading-tight">Erik Wagenaar ontdekte de charme van het boerenwerk</h1>
@@ -199,7 +209,7 @@
 
       </article>
 
-      <img src="/public/images/gg01mt07i.1-0.jpg" class="block-image col-span-2" alt="">
+      <img src="images/gg01mt07i.1-0.jpg" class="block-image col-span-2" alt="">
       <article class="p-5 bg-fdwhite shadow-md flex flex-col justify-between">
 
         <h1 class="text-2xl font-bold leading-tight">PFAS-gif hoopt zich op langs de kust</h1>
@@ -257,7 +267,7 @@
             Lees nu elke dag het nieuws via de website en de app!
           </h1>
 
-          <img src="/public/images/Mockup.png" alt="">
+          <img src="images/Mockup.png" alt="">
 
           <ul class="text-fdwhite font-serif list-disc list-inside leading-loose">
             <li>Elke dag digitaal de krant lezen</li>
