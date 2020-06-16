@@ -1,0 +1,33 @@
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friesch Dagblad</title>
+
+  <script>
+    if (location.hostname == "yansiegers.github.io") {
+      // <base href="https://yansiegers.github.io/FrieschDagblad/public/" />
+      document.write("<base href='" + document.location.href + "' />");
+    } else {
+      // <base href="/public/" />
+      document.write("<base href='/' />");
+    }
+    // base = document.createElement('base');
+    // base.href = document.location.href;
+    // document.getElementsByTagName('head')[0].prepend(base);
+  </script>
+
+  <link rel="stylesheet" href="public/build/tailwind.css">
+</head>
+
+<body class="bg-fdwhite">
+
+  <div class="container p-5 pt-40 mb-48 mx-auto">
+    <h1>Artikelen template pagina</h1>
+    <img class="article-image image-height" src="public/images/g7t1ms245.1-0.jpg" alt="">
+  </div>
+
+</body>
+
+</html>
