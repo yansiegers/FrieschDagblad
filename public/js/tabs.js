@@ -7,20 +7,20 @@ function toggleTabs() {
 
     // hide most-read
     listMostRead.classList.add("hidden");
-    tabs.children[0].classList.add("text-fdwhite", "bg-fdblue");
+    tabs.children[0].classList.add("text-fdwhite", "bg-fdblue", "shadow-inner");
 
     // show just-in
     listJustIn.classList.remove("hidden");
-    tabs.children[1].classList.remove("text-fdwhite", "bg-fdblue");
+    tabs.children[1].classList.remove("text-fdwhite", "bg-fdblue", "shadow-inner");
 
   } else if (listMostRead.classList.contains("hidden")) {
     // show most-read    
     listMostRead.classList.remove("hidden");
-    tabs.children[0].classList.remove("text-fdwhite", "bg-fdblue");
+    tabs.children[0].classList.remove("text-fdwhite", "bg-fdblue", "shadow-inner");
 
     // hide just-in
     listJustIn.classList.add("hidden");
-    tabs.children[1].classList.add("text-fdwhite", "bg-fdblue");
+    tabs.children[1].classList.add("text-fdwhite", "bg-fdblue", "shadow-inner");
 
   }
 }
