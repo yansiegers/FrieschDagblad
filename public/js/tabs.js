@@ -1,18 +1,26 @@
 function toggleTabs() {
   var listJustIn = document.getElementById("list-just-in");
   var listMostRead = document.getElementById("list-most-read");
-  var tabJustIn = document.getElementById("tab-just-in");
-  var tabMostRead = document.getElementById("tab-most-read");
+  var tabs = document.getElementById("tabs");
 
   if (listJustIn.classList.contains("hidden")) {
-    tabJustIn.classList.remove("hidden");
-    listJustIn.classList.remove("hidden");
-    tabMostRead.classList.add("hidden");
+
+    // hide most-read
     listMostRead.classList.add("hidden");
+    tabs.children[0].classList.add("text-fdwhite", "bg-fdblue");
+
+    // show just-in
+    listJustIn.classList.remove("hidden");
+    tabs.children[1].classList.remove("text-fdwhite", "bg-fdblue");
+
   } else if (listMostRead.classList.contains("hidden")) {
+    // show most-read    
     listMostRead.classList.remove("hidden");
-    tabMostRead.classList.remove("hidden");
+    tabs.children[0].classList.remove("text-fdwhite", "bg-fdblue");
+
+    // hide just-in
     listJustIn.classList.add("hidden");
-    tabJustIn.classList.add("hidden");
+    tabs.children[1].classList.add("text-fdwhite", "bg-fdblue");
+
   }
 }
