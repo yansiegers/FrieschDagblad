@@ -22,6 +22,7 @@
 
   <script src="public/js/article-height.js" defer></script>
   <script src="public/js/image-height.js" defer></script>
+  <script src="public/js/tabs.js" defer></script>
 </head>
 
 <body class="bg-fdwhite">
@@ -124,19 +125,22 @@
 
       <div class="bg-fdwhite shadow-md row-span-2 rounded-lg">
 
-        <div class="flex">
-          <h2 class="flex-1 text-center uppercase p-2">Meest gelezen</h2>
-          <h2 class="flex-1 text-center uppercase p-2 text-fdwhite rounded-bl-lg rounded-tr-lg bg-fdblue">
+        <div id="tab-most-read" class="flex">
+          <h2 onclick="showTabMostRead()" class="cursor-pointer flex-1 text-center uppercase p-2">Meest gelezen</h2>
+          <h2 onclick="showTabJustIn()"
+            class="cursor-pointer flex-1 text-center uppercase p-2 text-fdwhite rounded-bl-lg rounded-tr-lg bg-fdblue">
             Net binnen</h2>
         </div>
 
-        <div class="flex hidden">
-          <h2 class="flex-1 text-center uppercase font-medium p-2 text-white rounded-br-lg rounded-tl-lg bg-blue-500">
+        <div id="tab-just-in" class="flex hidden">
+          <h2 onclick="showTabMostRead()"
+            class="cursor-pointer flex-1 text-center uppercase font-medium p-2 text-white rounded-br-lg rounded-tl-lg bg-blue-500">
             Meest gelezen</h2>
-          <h2 class="flex-1 text-center uppercase font-medium p-2">Net binnen</h2>
+          <h2 onclick="showTabJustIn()" class="cursor-pointer flex-1 text-center uppercase font-medium p-2">Net binnen
+          </h2>
         </div>
 
-        <ol class="m-5">
+        <ol id="list-most-read" class="m-5">
 
           <li class="mb-5 flex items-center">
             <span class="text-xl text-fdblue font-bold mr-5">1</span>
@@ -175,7 +179,7 @@
 
         </ol>
 
-        <div class="hidden">
+        <div id="list-just-in" class="hidden">
           <ol>
 
             <li class="p-4 even:bg-fdgray">
