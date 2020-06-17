@@ -1,8 +1,9 @@
 # FrieschDagblad
 
 ## Installaties:
-* NPM
-* Tailwind
+* [NPM](https://www.npmjs.com/)
+* [Tailwind](https://tailwindcss.com/)
+* [PostCSS](https://postcss.org/)
 
 ## CSS laten genereren door Tailwind
 Terminal:
