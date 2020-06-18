@@ -13,6 +13,10 @@ body {
   /* width: 100%; */
 }
 
+p {
+  @apply font-serif;
+}
+
 a:hover {
   @apply text-fdblue underline;
 }

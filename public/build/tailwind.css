@@ -609,6 +609,10 @@ body {
   /* width: 100%; */
 }
 
+p {
+  font-family: "Source Serif Pro", serif;
+}
+
 a:hover {
   --text-opacity: 1;
   color: #00a4e8;
