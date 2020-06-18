@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         fdblue: '#00a4e8',
         fdorange: '#ff6633',
+        fdgreen: '#7cb44f',
         fdwhite: '#ffffff',
         fdgray: {
           default: '#ededed',
