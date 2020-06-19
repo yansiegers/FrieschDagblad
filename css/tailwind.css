@@ -1,29 +1,10 @@
+@import "/node_modules/typeface-roboto/index.css";
+@import "/FrieschDagblad/node_modules/typeface-roboto/index.css";
+
+@import "/node_modules/typeface-source-serif-pro/index.css";
+@import "/FrieschDagblad/node_modules/typeface-source-serif-pro/index.css";
+
 @tailwind base;
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 400;
-  src: url(/node_modules/typeface-roboto/files/roboto-latin-400.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-style: italic;
-  font-weight: 400;
-  src: url(/node_modules/typeface-roboto/files/roboto-latin-400italic.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 700;
-  src: url(/node_modules/typeface-roboto/files/roboto-latin-700.woff) format("woff");
-}
-
-@font-face {
-  font-family: "'Source Serif Pro'";
-  font-weight: 400;
-  src: url(/node_modules/typeface-source-serif-pro/files/source-serif-pro-latin-400.woff) format("woff");
-}
 
 body {
   background-image:
@@ -33,6 +14,10 @@ body {
   background-size: 160vw 160vw;
   /* background-attachment: fixed; */
   /* width: 100%; */
+}
+
+p {
+  @apply font-serif;
 }
 
 a:hover {
