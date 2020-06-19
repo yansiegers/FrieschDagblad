@@ -16,6 +16,9 @@ module.exports = {
           darker: '#c4c4c4'
         },
         fdblack: '#000000'
+      },
+      boxShadow: {
+        lgr: '0 -10px 15px -3px rgba(0, 0, 0, .1), 0 -4px 6px -2px rgba(0, 0, 0, .05)'
       }
     },
   },
