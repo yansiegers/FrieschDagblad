@@ -30,83 +30,72 @@
 
 <body class="bg-fdwhite">
 
-  <div class="bg-fdwhite border-b fixed w-full">
+  <div class="bg-fdwhite shadow-lg fixed w-full">
+    <nav class="container mx-auto px-5">
 
-    <div class="flex mb-4 ml-8 mr-8 pt-4">
-      <div class="flex w-1/2">
-        <h1 class="text-black text-center font-bold font-serif text-5xl text-left align-bottom">FrieschDagblad</h1>
-        <p class="text-fdblue align-bottom mt-8 ml-2 font-bold">
-          <time datetime="2020-2-6">Dinsdag 2 mei 2020</time>
-        </p>
-      </div>
+      <div class="flex justify-between my-5">
 
-      <div class="flex w-1/2 items-center">
-        <div class="lg:flex-grow text-right">
-          <a href="#responsive-header"
-            class="block border border-fdblue bg-fdblue p-1 pr-3 pl-3 rounded-full lg:inline-block lg:mt-0 text-fdwhite hover:text-fdwhite hover:bg-blue-400 hover:border-blue-400 mr-4 uppercase hover:no-underline">
-            abonneren
-          </a>
-          <a href="#responsive-header"
-            class="block lg:inline-block lg:mt-0 text-gray-700 hover:text-black hover:border-b-2 border-fdblue mr-4 uppercase hover:no-underline">
-            digitale krant
-          </a>
-          <a href="#responsive-header"
-            class="block lg:inline-block lg:mt-0 text-gray-700 hover:text-black hover:border-b-2 border-fdblue mr-4 uppercase hover:no-underline">
-            inloggen
-          </a>
-          <a href="#responsive-header"
-            class="block lg:inline-block lg:mt-0 text-gray-700 hover:text-black hover:border-b-2 border-fdblue mr-4 uppercase hover:no-underline">
-            service
-          </a>
+        <div class="flex items-end">
+          <img class="inline mr-5" src="public/images/Logo_Friesch_Dagblad_2.png" alt="">
+          <time id="paper-date" class="uppercase text-fdblue" datetime="2020-6-19">Vrijdag 19 juni 2020</time>
         </div>
-      </div>
-    </div>
 
-    <div class="flex ml-8 mr-8 mt-4">
-      <div class="flex w-5/6">
-        <nav>
-          <ul class="flex">
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black hover:border-b-2 border-fdblue uppercase hover:no-underline"
-                href="/">voorpagina</a>
-            </li>
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black hover:border-b-2 border-fdblue uppercase hover:no-underline"
-                href="categorieen/sport/">coronavirus</a>
-            </li>
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black border-b-2 border-fdblue uppercase hover:no-underline"
-                href="categorieen/sport/">sport</a>
-            </li>
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black hover:border-b-2 border-fdblue uppercase hover:no-underline"
-                href="categorieen/sport/">geloof</a>
-            </li>
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black hover:border-b-2 border-fdblue uppercase hover:no-underline"
-                href="categorieen/sport/">samenleving</a>
-            </li>
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black hover:border-b-2 border-fdblue uppercase hover:no-underline"
-                href="categorieen/sport/">economie</a>
-            </li>
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black hover:border-b-2 border-fdblue uppercase hover:no-underline"
-                href="categorieen/sport/">opinie</a>
-            </li>
-            <li class="mr-6">
-              <a class="text-gray-700 hover:text-black hover:border-b-2 border-fdblue uppercase hover:no-underline"
-                href="categorieen/sport/">cultuur</a>
-            </li>
-          </ul>
-        </nav>
+        <ul class="flex items-end">
+
+          <li class="uppercase px-3 py-1 bg-fdblue text-fdwhite rounded-full">
+            <a class="hover:text-fdwhite" href="#">Abonneren</a>
+          </li>
+          <li class="uppercase pl-3 py-1"><a href="#">Digitale krant</a></li>
+          <li class="uppercase pl-3 py-1"><a href="#">Inloggen</a></li>
+          <li class="uppercase pl-3 py-1"><a href="#">Service</a></li>
+
+        </ul>
+
       </div>
 
-      <div class="flex w-1/6 text-right text-black border rounded border-t border-r border-b border-l mr-4">
-        <input type="text" placeholder="Zoeken...">
+      <div class="flex justify-between">
+
+        <ul class="flex">
+
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue border-b-2" href="">Voorpagina</a>
+          </li>
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue hover:border-b-2" href="categorieen/sport/">Regio</a>
+          </li>
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue hover:border-b-2" href="categorieen/sport/">Geloof</a>
+          </li>
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue hover:border-b-2"
+              href="categorieen/sport/">Samenleving</a>
+          </li>
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue hover:border-b-2" href="categorieen/sport/">Sport</a>
+          </li>
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue hover:border-b-2"
+              href="categorieen/sport/">Economie</a>
+          </li>
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue hover:border-b-2" href="categorieen/sport/">Opinie</a>
+          </li>
+          <li class="uppercase mr-5">
+            <a class="block pb-3 hover:no-underline border-fdblue hover:border-b-2"
+              href="categorieen/sport/">Cultuur</a>
+          </li>
+
+        </ul>
+
+        <div>
+          <input class="outline-none focus:border-b-2 border-fdblack text-right" type="search" name="search" id="search"
+            placeholder="ZOEKEN">
+          <input class="bg-transparent" type="button" value="&#128269;">
+        </div>
+
       </div>
 
-    </div>
+    </nav>
   </div>
 
   <div class="container p-5 pt-40 mb-48 mx-auto">
