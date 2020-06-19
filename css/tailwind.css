@@ -1,5 +1,8 @@
 @import "/node_modules/typeface-roboto/index.css";
+@import "/FrieschDagblad/node_modules/typeface-roboto/index.css";
+
 @import "/node_modules/typeface-source-serif-pro/index.css";
+@import "/FrieschDagblad/node_modules/typeface-source-serif-pro/index.css";
 
 @tailwind base;
 
